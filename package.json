@@ -1,0 +1,20 @@
+{
+  "name": "js-testing-workshop",
+  "version": "1.0.0",
+  "description": "JS Testing Workshop",
+  "main": "index.js",
+  "repository": "http://gitlab.com/improve-sofware-quality/workshops/js-esting-workshop",
+  "author": "Holger Frohloff",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "nyc jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "nyc": "^14.1.1"
+  }
+}
